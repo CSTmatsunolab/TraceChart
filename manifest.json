@@ -1,28 +1,28 @@
 {
-  "update_url": "https://clients2.google.com/service/update2/crx",
+  //"update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "Scrum for Trello",
-  "version": "1.105",
-  "description": "Adds Scrum story points to your Trello",
+  "name": "Requirement Traceability Model for Agile Development",
+  "version": "1.0",
+  "description": "you can trace your activity",
   "content_scripts": [
     {
       "matches": ["https://trello.com/*"],
-      "js": ["jquery-3.6.0.min.js", "trelloscrum.js"],
-      "css": ["trelloscrum.css"]
+      "js": ["jquery-3.6.0.min.js", "tracechart.js"],
+      "css": ["tracechart.css"]
     }
   ],
   "manifest_version": 3,
-  "icons": { "128": "trello-scrum-icon.png" },
+  //"icons": { "128": "trello-scrum-icon.png" },
   "web_accessible_resources": [
     {
-      "resources": [
+      /* "resources": [
         "images/storypoints-icon.png",
         "/images/points-done.png",
         "/images/burndown_for_trello_icon_12x12.png",
         "/images/burndown_for_trello_icon_18x18.png",
         "/images/trello-scrum-icon_12x12.png",
         "/images/trello-scrum-icon_18x18.png"
-      ],
+      ], */
       "matches": ["<all_urls>"]
     }
   ],
