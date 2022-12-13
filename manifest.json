@@ -1,6 +1,4 @@
 {
-  //"update_url": "https://clients2.google.com/service/update2/crx",
-
   "name": "Requirement Traceability Model for Agile Development",
   "version": "1.0",
   "description": "you can trace your activity",
@@ -12,17 +10,9 @@
     }
   ],
   "manifest_version": 3,
-  //"icons": { "128": "trello-scrum-icon.png" },
   "web_accessible_resources": [
     {
-      /* "resources": [
-        "images/storypoints-icon.png",
-        "/images/points-done.png",
-        "/images/burndown_for_trello_icon_12x12.png",
-        "/images/burndown_for_trello_icon_18x18.png",
-        "/images/trello-scrum-icon_12x12.png",
-        "/images/trello-scrum-icon_18x18.png"
-      ], */
+      "resources": ["/images/trace_icon_png"],
       "matches": ["<all_urls>"]
     }
   ],
