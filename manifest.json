@@ -14,9 +14,6 @@
     {
 <<<<<<< HEAD
       "resources": ["/images/trace_icon_png"],
-=======
-      "resources": ["images/TM.png"],
->>>>>>> 1b43f8c185f59292d82e277058c36bf9158207f3
       "matches": ["<all_urls>"]
     }
   ],
