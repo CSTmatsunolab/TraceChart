@@ -22,7 +22,7 @@ function updateTrace() {
       class: "board-header-btn TraceChart",
       click: toggleDonate,
     });
-    $(".board-header-btns.mod-left:first").append(TraceChart);
+    $(".board-header-btns.mod-left:first").append(totalCards); //
   }
   TraceChart.text("TraceChart");
 }
